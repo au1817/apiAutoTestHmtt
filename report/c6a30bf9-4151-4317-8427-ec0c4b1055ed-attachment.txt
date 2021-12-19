@@ -1,0 +1,6 @@
+INFO     root:api_mis.py:13 正在初始化后台管理系统 登录url：http://api-toutiao-web.itheima.net/mis/v1_0/authorizations
+INFO     root:api_mis.py:16 正在初始化后台管理系统 查询文章url：http://api-toutiao-web.itheima.net/mis/v1_0/articles
+INFO     root:api_mis.py:19 正在初始化后台管理系统 审核文章url：http://api-toutiao-web.itheima.net/mis/v1_0/articles
+INFO     root:api_mis.py:30 正在调用后台管理系统 登录接口、请求数据：{'account': 'testid', 'password': 'testpwd123'}  请求头信息：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NzEyOTAzMTgsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.-B_cxkCWSEn8JXML-ZTXdV9ndIliXz1BPNMd9LWhAVI'}
+INFO     root:tools.py:14 正在提取token， 提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mzk4NDc5MTksImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.2pPXB0qHPi5WZZNmhjCIDeIsReUe64z1ZIEhCPiBK60'}
+INFO     root:tools.py:20 正在调用公共断言方法！

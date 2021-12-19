@@ -1,0 +1,5 @@
+INFO     root:api_mp.py:13 正在初始化自媒体登录url：http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+INFO     root:api_mp.py:16 正在初始化自媒体发布文章url：http://api-toutiao-web.itheima.net/mp/v1_0/articles?draft=false
+INFO     root:api_mp.py:27 正在调用自媒体登录接口，请求数据：{'mobile': '13911111111', 'code': '246810'}
+INFO     root:tools.py:14 正在提取token， 提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NzEyOTAzMTgsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.-B_cxkCWSEn8JXML-ZTXdV9ndIliXz1BPNMd9LWhAVI'}
+INFO     root:tools.py:20 正在调用公共断言方法！

@@ -1,0 +1,2 @@
+INFO     root:api_mis.py:43 正在调用后台管理系统 查询文章接口、请求数据：{'title': 'test-001', 'channel': '数据库'}  请求头信息：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mzk4OTIxMzcsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.h3E-0h2ubFSOdF4QSYFSFvCLxOcyDOg4H9LdjWeAqYA'}
+INFO     root:tools.py:20 正在调用公共断言方法！

@@ -1,0 +1,84 @@
+2021-12-19 11:35:34,895 INFO [root] [api_mp.py (__init__: 13)] - 正在初始化自媒体登录url：http://api-toutiao-web.itheima.net/mp/v1_0/authorizations 
+2021-12-19 11:35:34,905 INFO [root] [api_mp.py (__init__: 16)] - 正在初始化自媒体发布文章url：http://api-toutiao-web.itheima.net/mp/v1_0/articles?draft=false 
+2021-12-19 11:35:34,935 INFO [root] [api_mp.py (api_mp_login: 27)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13911111111', 'code': '246810'} 
+2021-12-19 11:35:35,225 INFO [root] [tools.py (common_token: 14)] - 正在提取token， 提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NzEzMzQ1MzcsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.5PKTAqIP1Nz8ZrkrmXxoLYLIvdxnwMtQpsdpYSkJehY'} 
+2021-12-19 11:35:35,235 INFO [root] [tools.py (common_assert: 20)] - 正在调用公共断言方法！ 
+2021-12-19 11:35:35,275 INFO [root] [api_mp.py (api_mp_article: 42)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-001', 'content': '今晚打老虎', 'channel_id': 7, 'cover': {'type': 0, 'images': []}} 
+2021-12-19 11:35:35,505 INFO [root] [tools.py (common_assert: 20)] - 正在调用公共断言方法！ 
+2021-12-19 11:35:35,535 INFO [root] [api_mis.py (__init__: 13)] - 正在初始化后台管理系统 登录url：http://api-toutiao-web.itheima.net/mis/v1_0/authorizations 
+2021-12-19 11:35:35,535 INFO [root] [api_mis.py (__init__: 16)] - 正在初始化后台管理系统 查询文章url：http://api-toutiao-web.itheima.net/mis/v1_0/articles 
+2021-12-19 11:35:35,545 INFO [root] [api_mis.py (__init__: 19)] - 正在初始化后台管理系统 审核文章url：http://api-toutiao-web.itheima.net/mis/v1_0/articles 
+2021-12-19 11:35:35,545 INFO [root] [api_mis.py (api_mis_login: 30)] - 正在调用后台管理系统 登录接口、请求数据：{'account': 'testid', 'password': 'testpwd123'}  请求头信息：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NzEzMzQ1MzcsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.5PKTAqIP1Nz8ZrkrmXxoLYLIvdxnwMtQpsdpYSkJehY'} 
+2021-12-19 11:35:35,835 INFO [root] [tools.py (common_token: 14)] - 正在提取token， 提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mzk4OTIxMzcsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.h3E-0h2ubFSOdF4QSYFSFvCLxOcyDOg4H9LdjWeAqYA'} 
+2021-12-19 11:35:35,845 INFO [root] [tools.py (common_assert: 20)] - 正在调用公共断言方法！ 
+2021-12-19 11:35:35,865 INFO [root] [api_mis.py (api_mis_search: 43)] - 正在调用后台管理系统 查询文章接口、请求数据：{'title': 'test-001', 'channel': '数据库'}  请求头信息：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mzk4OTIxMzcsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.h3E-0h2ubFSOdF4QSYFSFvCLxOcyDOg4H9LdjWeAqYA'} 
+2021-12-19 11:35:36,425 INFO [root] [tools.py (common_assert: 20)] - 正在调用公共断言方法！ 
+2021-12-19 11:35:36,445 INFO [root] [api_mis.py (api_mis_audit: 56)] - 正在调用后台管理系统 审核文章接口、请求数据：{'article_ids': [1472410262890872832], 'status': 0}  请求头信息：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mzk4OTIxMzcsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.h3E-0h2ubFSOdF4QSYFSFvCLxOcyDOg4H9LdjWeAqYA'} 
+2021-12-19 11:35:36,605 INFO [root] [tools.py (common_assert: 20)] - 正在调用公共断言方法！ 
+2021-12-19 11:35:36,615 ERROR [root] [test02_mis.py (test03_mis_audot: 56)] -  
+2021-12-19 11:52:38,105 INFO [root] [api_mp.py (__init__: 13)] - 正在初始化自媒体登录url：http://api-toutiao-web.itheima.net/mp/v1_0/authorizations 
+2021-12-19 11:52:38,105 INFO [root] [api_mp.py (__init__: 16)] - 正在初始化自媒体发布文章url：http://api-toutiao-web.itheima.net/mp/v1_0/articles?draft=false 
+2021-12-19 11:52:38,125 INFO [root] [api_mp.py (api_mp_login: 27)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13911111111', 'code': '246810'} 
+2021-12-19 11:52:38,395 INFO [root] [tools.py (common_token: 14)] - 正在提取token， 提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NzEzMzU1NjAsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.WbhA8r1wpb8qL3f-9q8vw-nGUmhSwCrp_DcDriLsjH8'} 
+2021-12-19 11:52:38,395 INFO [root] [tools.py (common_assert: 20)] - 正在调用公共断言方法！ 
+2021-12-19 11:52:38,455 INFO [root] [api_mp.py (api_mp_article: 42)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-001', 'content': '今晚打老虎', 'channel_id': 7, 'cover': {'type': 0, 'images': []}} 
+2021-12-19 11:52:38,645 INFO [root] [tools.py (common_assert: 20)] - 正在调用公共断言方法！ 
+2021-12-19 11:52:38,665 INFO [root] [api_mis.py (__init__: 13)] - 正在初始化后台管理系统 登录url：http://api-toutiao-web.itheima.net/mis/v1_0/authorizations 
+2021-12-19 11:52:38,665 INFO [root] [api_mis.py (__init__: 16)] - 正在初始化后台管理系统 查询文章url：http://api-toutiao-web.itheima.net/mis/v1_0/articles 
+2021-12-19 11:52:38,665 INFO [root] [api_mis.py (__init__: 19)] - 正在初始化后台管理系统 审核文章url：http://api-toutiao-web.itheima.net/mis/v1_0/articles 
+2021-12-19 11:52:38,675 INFO [root] [api_mis.py (api_mis_login: 30)] - 正在调用后台管理系统 登录接口、请求数据：{'account': 'testid', 'password': 'testpwd123'}  请求头信息：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NzEzMzU1NjAsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.WbhA8r1wpb8qL3f-9q8vw-nGUmhSwCrp_DcDriLsjH8'} 
+2021-12-19 11:52:38,935 INFO [root] [tools.py (common_token: 14)] - 正在提取token， 提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mzk4OTMxNjAsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.SmIt4V2C3ymlroL1BXrxkz2SB10yrWOzgAg6GCat594'} 
+2021-12-19 11:52:38,935 INFO [root] [tools.py (common_assert: 20)] - 正在调用公共断言方法！ 
+2021-12-19 11:52:38,965 INFO [root] [api_mis.py (api_mis_search: 43)] - 正在调用后台管理系统 查询文章接口、请求数据：{'title': 'test-001', 'channel': '数据库'}  请求头信息：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mzk4OTMxNjAsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.SmIt4V2C3ymlroL1BXrxkz2SB10yrWOzgAg6GCat594'} 
+2021-12-19 11:52:39,245 INFO [root] [tools.py (common_assert: 20)] - 正在调用公共断言方法！ 
+2021-12-19 11:52:39,255 INFO [root] [api_mis.py (api_mis_audit: 56)] - 正在调用后台管理系统 审核文章接口、请求数据：{'article_ids': [1472414554238484480], 'status': 0}  请求头信息：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mzk4OTMxNjAsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.SmIt4V2C3ymlroL1BXrxkz2SB10yrWOzgAg6GCat594'} 
+2021-12-19 11:52:39,465 INFO [root] [tools.py (common_assert: 20)] - 正在调用公共断言方法！ 
+2021-12-19 11:52:39,465 ERROR [root] [test02_mis.py (test03_mis_audot: 56)] -  
+2021-12-19 14:59:38,998 INFO [root] [api_mp.py (__init__: 13)] - 正在初始化自媒体登录url：http://api-toutiao-web.itheima.net/mp/v1_0/authorizations 
+2021-12-19 14:59:38,998 INFO [root] [api_mp.py (__init__: 16)] - 正在初始化自媒体发布文章url：http://api-toutiao-web.itheima.net/mp/v1_0/articles?draft=false 
+2021-12-19 14:59:39,018 INFO [root] [api_mp.py (api_mp_login: 27)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13911111111', 'code': '246810'} 
+2021-12-19 14:59:39,238 INFO [root] [tools.py (common_token: 14)] - 正在提取token， 提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NzEzNDY3ODEsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.vgowhdyK2JKgXlMy2XpUTSD2pgof7UVvFatbqMejEjw'} 
+2021-12-19 14:59:39,238 INFO [root] [tools.py (common_assert: 20)] - 正在调用公共断言方法！ 
+2021-12-19 14:59:39,258 INFO [root] [api_mp.py (api_mp_article: 42)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-001', 'content': '今晚打老虎', 'channel_id': 7, 'cover': {'type': 0, 'images': []}} 
+2021-12-19 14:59:39,498 INFO [root] [tools.py (common_assert: 20)] - 正在调用公共断言方法！ 
+2021-12-19 14:59:39,528 INFO [root] [api_mis.py (__init__: 13)] - 正在初始化后台管理系统 登录url：http://api-toutiao-web.itheima.net/mis/v1_0/authorizations 
+2021-12-19 14:59:39,528 INFO [root] [api_mis.py (__init__: 16)] - 正在初始化后台管理系统 查询文章url：http://api-toutiao-web.itheima.net/mis/v1_0/articles 
+2021-12-19 14:59:39,528 INFO [root] [api_mis.py (__init__: 19)] - 正在初始化后台管理系统 审核文章url：http://api-toutiao-web.itheima.net/mis/v1_0/articles 
+2021-12-19 14:59:39,538 INFO [root] [api_mis.py (api_mis_login: 30)] - 正在调用后台管理系统 登录接口、请求数据：{'account': 'testid', 'password': 'testpwd123'}  请求头信息：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NzEzNDY3ODEsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.vgowhdyK2JKgXlMy2XpUTSD2pgof7UVvFatbqMejEjw'} 
+2021-12-19 14:59:39,758 INFO [root] [tools.py (common_token: 14)] - 正在提取token， 提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mzk5MDQzODEsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.TS9VD2HR16kuJoHAqSbhUr8y8mX-PVeJHRphgkb_IeA'} 
+2021-12-19 14:59:39,758 INFO [root] [tools.py (common_assert: 20)] - 正在调用公共断言方法！ 
+2021-12-19 14:59:39,778 INFO [root] [api_mis.py (api_mis_search: 43)] - 正在调用后台管理系统 查询文章接口、请求数据：{'title': 'test-001', 'channel': '数据库'}  请求头信息：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mzk5MDQzODEsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.TS9VD2HR16kuJoHAqSbhUr8y8mX-PVeJHRphgkb_IeA'} 
+2021-12-19 14:59:40,118 INFO [root] [tools.py (common_assert: 20)] - 正在调用公共断言方法！ 
+2021-12-19 14:59:40,128 INFO [root] [api_mis.py (api_mis_audit: 56)] - 正在调用后台管理系统 审核文章接口、请求数据：{'article_ids': [1472461618464948224], 'status': 0}  请求头信息：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mzk5MDQzODEsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.TS9VD2HR16kuJoHAqSbhUr8y8mX-PVeJHRphgkb_IeA'} 
+2021-12-19 14:59:40,318 INFO [root] [tools.py (common_assert: 20)] - 正在调用公共断言方法！ 
+2021-12-19 14:59:40,318 ERROR [root] [test02_mis.py (test03_mis_audit: 56)] -  
+2021-12-19 16:44:50,472 INFO [root] [api_app.py (__init__: 17)] - 正在初始化app应用 登录url：http://api-toutiao-web.itheima.net/app/v1_0/authorization 
+2021-12-19 16:44:50,472 INFO [root] [api_app.py (__init__: 20)] - 正在初始化app应用查询频道下所有文章url：http://api-toutiao-web.itheima.net/app/v1_1/article 
+2021-12-19 16:44:50,472 INFO [root] [api_app.py (api_app_login: 28)] - 正在调用app登录接口方法 请求参数：{'mobile': '13911111111', 'code': '246810'} 请求头：{'Content-Type': 'application/json'} 
+2021-12-19 16:44:50,852 INFO [root] [api_app.py (api_app_article: 42)] - 正在调用app查询频道下所有文章接口方法 请求参数：{'channel_id': 7, 'timestamp': 1639903490, 'with_top': 1} 请求头：{'Content-Type': 'application/json'} 
+2021-12-19 16:44:51,002 INFO [root] [tools.py (common_assert: 20)] - 正在调用公共断言方法！ 
+2021-12-19 16:44:51,002 ERROR [root] [test03_app.py (test02_app_article: 37)] -  
+2021-12-19 16:46:55,305 INFO [root] [api_mp.py (__init__: 13)] - 正在初始化自媒体登录url：http://api-toutiao-web.itheima.net/mp/v1_0/authorizations 
+2021-12-19 16:46:55,305 INFO [root] [api_mp.py (__init__: 16)] - 正在初始化自媒体发布文章url：http://api-toutiao-web.itheima.net/mp/v1_0/articles?draft=false 
+2021-12-19 16:46:55,305 INFO [root] [api_mp.py (api_mp_login: 27)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13911111111', 'code': '246810'} 
+2021-12-19 16:46:55,525 INFO [root] [tools.py (common_token: 14)] - 正在提取token， 提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NzEzNTMyMTcsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.xqSMOoUoDWMtxlwoxzwcCFDOSnv4P_XEod1orWZwFHw'} 
+2021-12-19 16:46:55,525 INFO [root] [tools.py (common_assert: 20)] - 正在调用公共断言方法！ 
+2021-12-19 16:46:55,545 INFO [root] [api_mp.py (api_mp_article: 42)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-001', 'content': '今晚打老虎', 'channel_id': 7, 'cover': {'type': 0, 'images': []}} 
+2021-12-19 16:46:55,735 INFO [root] [tools.py (common_assert: 20)] - 正在调用公共断言方法！ 
+2021-12-19 16:46:55,745 INFO [root] [api_mis.py (__init__: 13)] - 正在初始化后台管理系统 登录url：http://api-toutiao-web.itheima.net/mis/v1_0/authorizations 
+2021-12-19 16:46:55,745 INFO [root] [api_mis.py (__init__: 16)] - 正在初始化后台管理系统 查询文章url：http://api-toutiao-web.itheima.net/mis/v1_0/articles 
+2021-12-19 16:46:55,745 INFO [root] [api_mis.py (__init__: 19)] - 正在初始化后台管理系统 审核文章url：http://api-toutiao-web.itheima.net/mis/v1_0/articles 
+2021-12-19 16:46:55,755 INFO [root] [api_mis.py (api_mis_login: 30)] - 正在调用后台管理系统 登录接口、请求数据：{'account': 'testid', 'password': 'testpwd123'}  请求头信息：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NzEzNTMyMTcsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.xqSMOoUoDWMtxlwoxzwcCFDOSnv4P_XEod1orWZwFHw'} 
+2021-12-19 16:46:56,045 INFO [root] [tools.py (common_token: 14)] - 正在提取token， 提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mzk5MTA4MTgsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.qdivGpKatLvNxZ0RZ5T1Bh1vJvWRr1Pib5zB4ynFJyQ'} 
+2021-12-19 16:46:56,045 INFO [root] [tools.py (common_assert: 20)] - 正在调用公共断言方法！ 
+2021-12-19 16:46:56,165 INFO [root] [api_mis.py (api_mis_search: 43)] - 正在调用后台管理系统 查询文章接口、请求数据：{'title': 'test-001', 'channel': '数据库'}  请求头信息：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mzk5MTA4MTgsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.qdivGpKatLvNxZ0RZ5T1Bh1vJvWRr1Pib5zB4ynFJyQ'} 
+2021-12-19 16:46:56,485 INFO [root] [tools.py (common_assert: 20)] - 正在调用公共断言方法！ 
+2021-12-19 16:46:56,505 INFO [root] [api_mis.py (api_mis_audit: 56)] - 正在调用后台管理系统 审核文章接口、请求数据：{'article_ids': [1472488614293143552], 'status': 0}  请求头信息：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mzk5MTA4MTgsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.qdivGpKatLvNxZ0RZ5T1Bh1vJvWRr1Pib5zB4ynFJyQ'} 
+2021-12-19 16:46:56,695 INFO [root] [tools.py (common_assert: 20)] - 正在调用公共断言方法！ 
+2021-12-19 16:46:56,695 ERROR [root] [test02_mis.py (test03_mis_audit: 56)] -  
+2021-12-19 16:46:56,825 INFO [root] [api_app.py (__init__: 17)] - 正在初始化app应用 登录url：http://api-toutiao-web.itheima.net/app/v1_0/authorization 
+2021-12-19 16:46:56,825 INFO [root] [api_app.py (__init__: 20)] - 正在初始化app应用查询频道下所有文章url：http://api-toutiao-web.itheima.net/app/v1_1/article 
+2021-12-19 16:46:56,825 INFO [root] [api_app.py (api_app_login: 28)] - 正在调用app登录接口方法 请求参数：{'mobile': '13911111111', 'code': '246810'} 请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mzk5MTA4MTgsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.qdivGpKatLvNxZ0RZ5T1Bh1vJvWRr1Pib5zB4ynFJyQ'} 
+2021-12-19 16:46:57,285 INFO [root] [api_app.py (api_app_article: 42)] - 正在调用app查询频道下所有文章接口方法 请求参数：{'channel_id': 7, 'timestamp': 1639903617, 'with_top': 1} 请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mzk5MTA4MTgsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.qdivGpKatLvNxZ0RZ5T1Bh1vJvWRr1Pib5zB4ynFJyQ'} 
+2021-12-19 16:46:57,425 INFO [root] [tools.py (common_assert: 20)] - 正在调用公共断言方法！ 
+2021-12-19 16:46:57,425 ERROR [root] [test03_app.py (test02_app_article: 37)] -  

@@ -1,0 +1,3 @@
+INFO     root:api_mis.py:56 正在调用后台管理系统 审核文章接口、请求数据：{'article_ids': [1472221346833367040], 'status': 1}  请求头信息：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mzk4NDcwOTYsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.v3BvF0DwEUynAXZjm1gZsxvavPhyk-sAKCwUzSVXz1U'}
+INFO     root:tools.py:20 正在调用公共断言方法！
+ERROR    root:test02_mis.py:55

@@ -1,0 +1,3 @@
+INFO     root:api_app.py:42 正在调用app查询频道下所有文章接口方法 请求参数：{'channel_id': 7, 'timestamp': 1639903490, 'with_top': 1} 请求头：{'Content-Type': 'application/json'}
+INFO     root:tools.py:20 正在调用公共断言方法！
+ERROR    root:test03_app.py:37

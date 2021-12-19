@@ -1,0 +1,2 @@
+INFO     root:api_mp.py:42 正在调用自媒体发布文章接口，请求数据：{'title': 'test-001', 'content': '今晚打老虎', 'channel_id': 7, 'cover': {'type': 0, 'images': []}}
+INFO     root:tools.py:20 正在调用公共断言方法！

@@ -1,0 +1,2 @@
+INFO     root:tools.py:14 正在提取token， 提取后的headers为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mzk4NDQ0MTAsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.Qj6Wteb8j1Lbf4lSzfzgdKAiAR7nqw9qMo-KO-LRW2s'}
+INFO     root:tools.py:20 正在调用公共断言方法！

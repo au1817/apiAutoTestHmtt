@@ -1,0 +1,3 @@
+INFO     root:api_app.py:17 正在初始化app应用 登录url：http://api-toutiao-web.itheima.net/app/v1_0/authorization
+INFO     root:api_app.py:20 正在初始化app应用查询频道下所有文章url：http://api-toutiao-web.itheima.net/app/v1_1/article
+INFO     root:api_app.py:28 正在调用app登录接口方法 请求参数：{'mobile': '13911111111', 'code': '246810'} 请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mzk5MTA4MTgsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.qdivGpKatLvNxZ0RZ5T1Bh1vJvWRr1Pib5zB4ynFJyQ'}
